@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!-- This website was made by Chase Davis for GTC Dual Enrollment -->
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset=utf-8>
+</head>
+<body>
+	<header>
+	</header>
+	
+	<nav>
+	</nav>
+	
+	<main>
+	</main>
+	
+	<footer>
+	</footer>
+</body>
+</html>
