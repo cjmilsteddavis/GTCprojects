@@ -1,0 +1,39 @@
+/*Charles Davis, 9/13/27,style.css*/
+
+body,header,nav,footer{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-family: 'Comic Sans MS', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
+}
+a{
+	font-weight: bold;
+	color: green;
+}
+.italic-text {
+	font-style: italic;
+}
+body,nav,footer{
+	background: white;
+}
+nav{
+	list-style: none;
+
+}
+body {
+	line-height: 1.5;
+}
+header{
+	background: darkgrey;
+	letter-spacing: normal;
+}
+h1, h2, h3, h4 {
+	text-wrap: balance;
+}
+img, picture, video, canvas, svg {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border: 2px solid mediumaquamarine;
+}
