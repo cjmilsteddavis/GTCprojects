@@ -1,32 +1,80 @@
 /*Charles Davis, 9/13/27,style.css*/
-
-body,header,nav,footer{
+/* Style rules for mobile viewport */
+body,header,nav,footer,ul {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	/*font-family: 'Comic Sans MS', sans-serif;*/
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Roboto Slab",'Francois One', serif;
+	text-align: center;
 }
-a{
+main {
+	font-family: ‘Roboto Slab’, serif;
+}
+a {
 	font-weight: bold;
 	color: green;
 }
 .italic-text {
 	font-style: italic;
 }
-body,nav,footer{
+body,nav,footer {
 	background: white;
 }
-nav{
-	list-style: none;
+.francois-one-regular {
+	font-family: "Francois One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.roboto-slab-regular {
+	font-family: "Roboto Slab", serif;
+	font-optical-sizing: auto;
+	font-weight: 900;
+	font-style: normal;
+}
+nav {
+	font-family: ‘Francois One’, sans-serif;
+	padding: 1%;
+	margin-bottom: 1%;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+nav ul {
+	list-style-type: none;
+	margin:0;
+	text-align: center;
+}
+nav li{
+	font-size: 1.5em;
 
+	border-top: 1px solid #fff;
 }
 body {
 	line-height: 1.5;
+	border: 1px solid #000;
+	border-radius: 5px;
 }
-header{
+.tel-link {
+	background-color: #404040;
+	padding: 2%;
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	border-radius: 5px;
+}
+.tel-link a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5em;
+	display: block;
+}
+header {
 	background: darkgrey;
 	letter-spacing: normal;
+	position: sticky;
+	top: 0;
+	border: 1px solid #000;
+	border-radius: 5px;
 }
 h1, h2, h3, h4 {
 	text-wrap: balance;
@@ -36,4 +84,6 @@ img, picture, video, canvas, svg {
 	max-width: 100%;
 	height: auto;
 	border: 2px solid mediumaquamarine;
+	margin-left: auto;
+	margin-right: auto;
 }
