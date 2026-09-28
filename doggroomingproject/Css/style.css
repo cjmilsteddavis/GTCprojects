@@ -3,11 +3,23 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
 	header {
 		position: sticky;
+
 	}
 	body,header,nav,footer,ul, nav ul, .tel-link {
 		text-align: center;
 	}
-
+	.tablet-desktop {
+		display: none;
+	}
+	.mobile {
+		display: block;
+	}
+	.desktop {
+		display: none;
+	}
+	#services{
+		display: block;
+	}
 }
 /*Charles Davis, 9/27/26,style.css*/
 /* Style rules for tablet viewport */
@@ -21,17 +33,58 @@ nav li{
 	display: inline-block;
 	border-right: solid 1px #fff;
 }
+	.tablet-desktop {
+		display: block;
+	}
+	.mobile {
+		display: none;
+	}
+	.desktop {
+		display: none;
+	}
+	#services{
+		display: block;
+	}
 }
 /*Charles Davis, 9/27/26,style.css*/
 /* Style rules for desktop viewport */
 @media screen and (min-width: 769px) and (max-width: 1279px) {
-
+	nav a:visited {
+		color: firebrick;
+	}
+	.desktop {
+		display: block;
+	}
+	#left-service, #right-service, #center-service {
+		width: 29%;
+		float: left;
+		margin: 0 2%;
+	}
+	#left-service {
+		clear: left;
+	}
+	#services{
+		display: none;
+	}
 
 }
 /*Charles Davis, 9/27/26,style.css*/
 /* Style rules for large desktop viewport */
 @media screen and (min-width: 1280px) {
-
+	.desktop {
+		display: block;
+	}
+	#left-service, #right-service, #center-service {
+		width: 29%;
+		float: left;
+		margin: 0 2%;
+	}
+	#left-service {
+		clear: left;
+	}
+	#services{
+		display: none;
+	}
 
 }
 /*Charles Davis, 9/27/26,style.css*/
@@ -40,13 +93,8 @@ nav li{
 
 
 }
-body,header,nav,footer,ul {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	/*font-family: 'Comic Sans MS', sans-serif;*/
-	font-family: "Roboto Slab",'Francois One', serif;
-}
+
+
 main {
 	font-family: ‘Roboto Slab’, serif;
 }
@@ -107,7 +155,7 @@ body {
 	display: block;
 }
 header {
-	background: darkgrey;
+	background: linear-gradient(to right, darkorchid, olivedrab);
 	letter-spacing: normal;
 	top: 0;
 	border: 1px solid #000;
@@ -124,9 +172,5 @@ img, picture, video, canvas, svg {
 	margin-left: auto;
 	margin-right: auto;
 }
-.tablet-desktop {
-	display: block;
-}
-.mobile {
-	display: none;
-}
+
+
