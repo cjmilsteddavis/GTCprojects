@@ -1,12 +1,51 @@
-/*Charles Davis, 9/13/27,style.css*/
+/*Charles Davis, 9/27/26,style.css*/
 /* Style rules for mobile viewport */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	header {
+		position: sticky;
+	}
+	body,header,nav,footer,ul, nav ul, .tel-link {
+		text-align: center;
+	}
+
+}
+/*Charles Davis, 9/27/26,style.css*/
+/* Style rules for tablet viewport */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+header{
+	position: static;
+	padding-bottom: 2%;
+}
+nav li{
+	border-top: none;
+	display: inline-block;
+	border-right: solid 1px #fff;
+}
+}
+/*Charles Davis, 9/27/26,style.css*/
+/* Style rules for desktop viewport */
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+
+
+}
+/*Charles Davis, 9/27/26,style.css*/
+/* Style rules for large desktop viewport */
+@media screen and (min-width: 1280px) {
+
+
+}
+/*Charles Davis, 9/27/26,style.css*/
+/* Style rules for print viewport */
+@media print {
+
+
+}
 body,header,nav,footer,ul {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	/*font-family: 'Comic Sans MS', sans-serif;*/
 	font-family: "Roboto Slab",'Francois One', serif;
-	text-align: center;
 }
 main {
 	font-family: ‘Roboto Slab’, serif;
@@ -42,7 +81,7 @@ nav {
 nav ul {
 	list-style-type: none;
 	margin:0;
-	text-align: center;
+
 }
 nav li{
 	font-size: 1.5em;
@@ -59,7 +98,6 @@ body {
 	padding: 2%;
 	margin: 0 auto;
 	width: 80%;
-	text-align: center;
 	border-radius: 5px;
 }
 .tel-link a {
@@ -71,7 +109,6 @@ body {
 header {
 	background: darkgrey;
 	letter-spacing: normal;
-	position: sticky;
 	top: 0;
 	border: 1px solid #000;
 	border-radius: 5px;
@@ -86,4 +123,10 @@ img, picture, video, canvas, svg {
 	border: 2px solid mediumaquamarine;
 	margin-left: auto;
 	margin-right: auto;
+}
+.tablet-desktop {
+	display: block;
+}
+.mobile {
+	display: none;
 }
