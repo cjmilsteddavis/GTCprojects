@@ -1,0 +1,179 @@
+/*Charles Davis, 9/27/26,style.css*/
+/* Style rules for mobile viewport */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	header {
+		position: sticky;
+
+	}
+	body,header,nav,footer,ul, nav ul, .tel-link {
+		text-align: center;
+	}
+	.tablet-desktop {
+		display: none;
+	}
+	.mobile {
+		display: block;
+	}
+	.desktop {
+		display: none;
+	}
+	#posts{
+		display: block;
+	}
+}
+/*Charles Davis, 9/27/26,style.css*/
+/* Style rules for tablet viewport */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+header{
+	position: static;
+	padding-bottom: 2%;
+}
+nav li{
+	border-top: none;
+	display: inline-block;
+	border-right: solid 1px #fff;
+}
+	.tablet-desktop {
+		display: block;
+	}
+	.mobile {
+		display: none;
+	}
+	.desktop {
+		display: none;
+	}
+	#posts{
+		display: block;
+	}
+}
+/*Charles Davis, 9/27/26,style.css*/
+/* Style rules for desktop viewport */
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+	nav a:visited {
+		color: firebrick;
+	}
+	.desktop {
+		display: block;
+	}
+	#left-service, #right-service, #center-service {
+		width: 29%;
+		float: left;
+		margin: 0 2%;
+	}
+	#left-service {
+		clear: left;
+	}
+	#posts{
+		display: none;
+	}
+
+}
+/*Charles Davis, 9/27/26,style.css*/
+/* Style rules for large desktop viewport */
+@media screen and (min-width: 1280px) {
+	.desktop {
+		display: block;
+	}
+	#left-service, #right-service, #center-service {
+		width: 29%;
+		float: left;
+		margin: 0 2%;
+	}
+	#left-service {
+		clear: left;
+	}
+	#posts{
+		display: none;
+	}
+
+}
+/*Charles Davis, 9/27/26,style.css*/
+/* Style rules for print viewport */
+@media print {
+
+
+}
+
+
+main {
+	font-family: ‘Roboto Slab’, serif;
+}
+a {
+	font-weight: bold;
+	color: green;
+}
+.italic-text {
+	font-style: italic;
+}
+body,nav,footer {
+	background: white;
+}
+.francois-one-regular {
+	font-family: "Francois One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.roboto-slab-regular {
+	font-family: "Roboto Slab", serif;
+	font-optical-sizing: auto;
+	font-weight: 900;
+	font-style: normal;
+}
+nav {
+	font-family: ‘Francois One’, sans-serif;
+	padding: 1%;
+	margin-bottom: 1%;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+nav ul {
+	list-style-type: none;
+	margin:0;
+
+}
+nav li{
+	font-size: 1.5em;
+
+	border-top: 1px solid #fff;
+}
+body {
+	line-height: 1.5;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+.tel-link {
+	background-color: #404040;
+	padding: 2%;
+	margin: 0 auto;
+	width: 80%;
+	border-radius: 5px;
+}
+.tel-link a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5em;
+	display: block;
+}
+header {
+	background: linear-gradient(to right, floralwhite, navajowhite);
+	letter-spacing: normal;
+	top: 0;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+h1, h2, h3, h4 {
+	text-wrap: balance;
+}
+img, picture, video, canvas, svg {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border: 2px solid mediumaquamarine;
+	margin-left: auto;
+	margin-right: auto;
+}
+img {
+	border-radius: 0 0 0 50px;
+}
+
+
