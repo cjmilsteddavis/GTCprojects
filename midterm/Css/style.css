@@ -45,6 +45,7 @@ nav li{
 	#posts{
 		display: block;
 	}
+
 }
 /*Charles Davis, 9/27/26,style.css*/
 /* Style rules for desktop viewport */
@@ -66,7 +67,9 @@ nav li{
 	#posts{
 		display: none;
 	}
-
+	.tel-link {
+		display: none;
+	}
 }
 /*Charles Davis, 9/27/26,style.css*/
 /* Style rules for large desktop viewport */
@@ -85,7 +88,9 @@ nav li{
 	#posts{
 		display: none;
 	}
-
+	.tel-link {
+		display: none;
+	}
 }
 /*Charles Davis, 9/27/26,style.css*/
 /* Style rules for print viewport */
@@ -173,7 +178,7 @@ img, picture, video, canvas, svg {
 	margin-right: auto;
 }
 img {
-	border-radius: 0 0 0 50px;
+	border-radius: 5px 5px 5px 5px;
 }
 
 
