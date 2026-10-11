@@ -126,18 +126,18 @@ body,nav,footer {
 nav {
 	font-family: ‘Francois One’, sans-serif;
 	padding: 1%;
-	margin-bottom: 1%;
+	margin: 0;
 	border: 1px solid #000;
 	border-radius: 5px;
 }
 nav ul {
 	list-style-type: none;
-	margin:0;
+	margin: 0;
 
 }
 nav li{
 	font-size: 1.5em;
-
+	margin: 0;
 	border-top: 1px solid #fff;
 }
 body {
