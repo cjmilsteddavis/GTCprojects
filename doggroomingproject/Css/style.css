@@ -8,7 +8,7 @@
 	body,header,nav,footer,ul, nav ul, .tel-link {
 		text-align: center;
 	}
-	.tablet-desktop {
+	#tablet-desktop {
 		display: none;
 	}
 	.mobile {
@@ -20,20 +20,26 @@
 	#services{
 		display: block;
 	}
+	#desktop {
+		display: none;
+	}
 }
 /*Charles Davis, 9/27/26,style.css*/
 /* Style rules for tablet viewport */
 @media screen and (min-width: 481px) and (max-width: 768px) {
-header{
+	#desktop {
+		display: none;
+	}
+	header{
 	position: static;
 	padding-bottom: 2%;
-}
-nav li{
+	}
+	nav li{
 	border-top: none;
 	display: inline-block;
 	border-right: solid 1px #fff;
-}
-	.tablet-desktop {
+	}
+	#tablet-desktop {
 		display: block;
 	}
 	.mobile {
@@ -60,6 +66,9 @@ nav li{
 		float: left;
 		margin: 0 2%;
 	}
+	#desktop {
+		display: block;
+	}
 	#left-service {
 		clear: left;
 	}
@@ -69,10 +78,19 @@ nav li{
 	.tel-link {
 		display: none;
 	}
+	.services{
+		display: none;
+	}
 }
 /*Charles Davis, 9/27/26,style.css*/
 /* Style rules for large desktop viewport */
 @media screen and (min-width: 1280px) {
+	.services{
+		display: none;
+	}
+	#desktop {
+		display: block;
+	}
 	.desktop {
 		display: block;
 	}
@@ -109,7 +127,7 @@ a {
 .italic-text {
 	font-style: italic;
 }
-body,nav,footer {
+body,nav {
 	background: white;
 }
 .francois-one-regular {
@@ -176,5 +194,17 @@ img, picture, video, canvas, svg {
 	margin-left: auto;
 	margin-right: auto;
 }
-
+.grid {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+footer{
+	background: lightgray;
+	opacity: 0.5;
+	p{
+		text-shadow: #404040 3px 3px 3px;
+	}
+}
 

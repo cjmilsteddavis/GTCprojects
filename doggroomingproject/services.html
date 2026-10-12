@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="Css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image.jpg" sizes = "32x32" href = "Images/imresizer-resize-FishWithJ's.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -19,41 +20,45 @@
 
     <ul>
         <li><a href="index.html">Home</a></li>
-        <li>Services</li>
-        <li>Booking</li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href = "booking.html">Booking</a></li>
         <li>About Us</li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
 </nav>
 
 <main>
-    <div id = "services">
-    <p>We offer high-quality services for your dogs, see their pricing below!</p>
-    <p>Nail Trimming - 40$<p>
-        <img src="Images/dog-nail-trim.jpg" alt="Dog nail trim"/>
-        <p>Quick Washing - 30$</p>
-    <p>Deep Cleansing - 60$</p>
-
-        <img src="Images/dog-bath.jpg" alt = "Dog bath"/>
-        <p>Full Package (includes deep cleanse and nail trimming) - 90$</p>
-    </div>
-
-    <div class = "desktop">
+    <article class = services>
         <p>We offer high-quality services for your dogs, see their pricing below!</p>
-        <div id = left-service>
-            <p>Nail Trimming - 40$</p>
+        <figure>
             <img src="Images/dog-nail-trim.jpg" alt="Dog nail trim"/>
-        </div>
-        <div id = center-service>
-            <p>Quick Washing - 30$</p>
-            <p>Full Package (includes deep cleanse and nail trimming) - 90$</p>
-        </div>
-        <div id = right-service>
-            <p>Deep Cleansing - 60$</p>
-            <img src="Images/dog-bath.jpg" alt = "Dog bath"/>
-        </div>
+            <figcaption>Nail Trimming - 40$</figcaption>
+        </figure>
 
-    </div>
+        <p>Quick Washing - 30$</p>
+
+        <figure>
+            <img src="Images/dog-bath.jpg" alt = "Dog bath"/>
+            <p>Deep Cleansing - 60$</p>
+        </figure>
+
+        <p>Full Package (includes deep cleanse and nail trimming) - 90$</p>
+    </article>
+
+    <article class = desktop>
+        <p>We offer high-quality services for your dogs, see their pricing below!</p>
+        <figure id = left-service>
+            <img src="Images/dog-nail-trim.jpg" alt="Dog nail trim"/>
+            <figcaption>Nail Trimming - 40$</figcaption>
+        </figure>
+        <figure id = center-service>
+            <p>Quick Washing - 30$</p>
+        </figure>
+        <div id = right-service>
+            <img src="Images/dog-bath.jpg" alt = "Dog bath"/>
+            <p>Deep Cleansing - 60$</p>
+        </div>
+    </article>
 </main>
 
 <footer>
