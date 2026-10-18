@@ -23,6 +23,35 @@
 	#desktop {
 		display: none;
 	}
+	#form {
+		margin-top: 2%;
+		background-color: #f2f2f2;
+		padding: 2%;
+	}
+	#form h2 {
+		text-align: center;
+	}
+	fieldset, input, select, textarea {
+		margin-bottom: 2%;
+	}
+	fieldset legend{
+		font-weight: bold;
+		font-size: 1.25em;
+	}
+	label {
+		display: block;
+		padding-top: 3%;
+	}
+	form #submit {
+		display: block;
+		margin: 0 auto;
+		border: none;
+		padding: 2%;
+		background-color: #b3b3b3;
+		font-size: 1em;
+		border-radius: 10px;
+	}
+
 }
 /*Charles Davis, 9/27/26,style.css*/
 /* Style rules for tablet viewport */
@@ -50,6 +79,10 @@
 	}
 	#services{
 		display: block;
+	}
+	form {
+		width: 70%;
+		margin: 0 auto;
 	}
 }
 /*Charles Davis, 9/27/26,style.css*/
@@ -81,6 +114,17 @@
 	.services{
 		display: none;
 	}
+	form{
+		width: auto;
+	}
+	.form-grid {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-gap: 20px;
+	}
+	.btn{
+		grid-column: 1 / span 3;
+	}
 }
 /*Charles Davis, 9/27/26,style.css*/
 /* Style rules for large desktop viewport */
@@ -108,6 +152,12 @@
 	.tel-link {
 		display: none;
 	}
+	nav a:visited {
+		color: firebrick;
+	}
+	table{
+		width: 80%;
+	}
 }
 /*Charles Davis, 9/27/26,style.css*/
 /* Style rules for print viewport */
@@ -116,7 +166,29 @@
 
 }
 
-
+table{
+	border: 1px solid #000;
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 100%;
+}
+caption{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 1%;
+}
+th, td {
+	border: 1px solid #000;
+	padding: 2%;
+}
+th {
+	background-color: #000;
+	color: #fff;
+	font-size: 1.15em;
+}
+tr:nth-child(odd){
+	background-color: lightsteelblue;
+}
 main {
 	font-family: ‘Roboto Slab’, serif;
 }
