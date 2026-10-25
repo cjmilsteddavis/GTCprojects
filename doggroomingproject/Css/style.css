@@ -165,7 +165,11 @@
 
 
 }
-
+img, picture, video, canvas, svg {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
 table{
 	border: 1px solid #000;
 	border-collapse: collapse;
@@ -279,4 +283,5 @@ footer{
 		text-shadow: #404040 3px 3px 3px;
 	}
 }
+
 
