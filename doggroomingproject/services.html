@@ -11,18 +11,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
+<header id=“dfdg-logo">
     <h1>Davis Family Dog Grooming - Services We Offer</h1>
 
     <img src="Images/dog-banner.jpg" alt="Dog banner"/>
 </header>
-<nav>
+<nav class="mobile-nav">
+    <div id="menu-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <a class="menu-icon" onclick="hamburger()">
+        <div>&#9776;</div>
+    </a>
+</nav>
+<nav class=“tablet-desktop">
 
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href = "booking.html">Booking</a></li>
-        <li>About Us</li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
 </nav>
@@ -104,5 +114,6 @@
     <p>&#169;Copyright 2026. All Rights Reserved.</p>
     <p>contact@dfdg.net</p>
 </footer>
+<script src="Scripts/script.js"></script>
 </body>
 </html>

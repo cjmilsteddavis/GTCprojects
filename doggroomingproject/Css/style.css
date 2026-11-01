@@ -51,7 +51,23 @@
 		font-size: 1em;
 		border-radius: 10px;
 	}
-
+	.mobile-nav a {
+		font-family: ‘Francois One’, sans-serif;
+		text-align: center;
+		font-size: 2em;
+		text-decoration: none;
+		padding: 3%;
+		display: block;
+	}
+	.mobile-nav a.menu-icon {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.tablet-desktop a, #menu-links{
+		display: none;
+	}
 }
 /*Charles Davis, 9/27/26,style.css*/
 /* Style rules for tablet viewport */
@@ -83,6 +99,12 @@
 	form {
 		width: 70%;
 		margin: 0 auto;
+	}
+	.tablet-desktop{
+		display: block;
+	}
+	.mobile-nav{
+		display: none;
 	}
 }
 /*Charles Davis, 9/27/26,style.css*/
@@ -125,6 +147,12 @@
 	.btn{
 		grid-column: 1 / span 3;
 	}
+	.tablet-desktop{
+		display: block;
+	}
+	.mobile-nav{
+		display: none;
+	}
 }
 /*Charles Davis, 9/27/26,style.css*/
 /* Style rules for large desktop viewport */
@@ -157,6 +185,12 @@
 	}
 	table{
 		width: 80%;
+	}
+	.tablet-desktop{
+		display: block;
+	}
+	.mobile-nav{
+		display: none;
 	}
 }
 /*Charles Davis, 9/27/26,style.css*/
@@ -283,5 +317,4 @@ footer{
 		text-shadow: #404040 3px 3px 3px;
 	}
 }
-
 
