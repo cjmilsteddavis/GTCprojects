@@ -16,6 +16,3 @@ function hamburger(){
         logo.style.display = "none";
     }
 }
-$(document).ready(function(){
-    $('.hero').height($(window).height());
-}

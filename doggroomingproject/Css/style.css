@@ -133,7 +133,7 @@
 	.tel-link {
 		display: none;
 	}
-	.services{
+	.mechanics{
 		display: none;
 	}
 	form{
@@ -157,7 +157,7 @@
 /*Charles Davis, 9/27/26,style.css*/
 /* Style rules for large desktop viewport */
 @media screen and (min-width: 1280px) {
-	.services{
+	.mechanics{
 		display: none;
 	}
 	#desktop {
